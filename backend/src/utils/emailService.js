@@ -10,10 +10,10 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-const sendEmail = async (to, text, subject = "AuthKit Notification") => {
+const sendEmail = async (to, text, subject = "VeriLearn Notification") => {
   try {
     const mailOptions = {
-      from: `"AuthKit" <${process.env.EMAIL_USER}>`,
+      from: `"VeriLearn" <${process.env.EMAIL_USER}>`,
       to,
       subject,
       text,

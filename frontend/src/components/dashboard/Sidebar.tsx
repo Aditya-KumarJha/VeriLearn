@@ -47,7 +47,7 @@ export default function Sidebar() {
       className="h-screen border-r border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950"
     >
       <div className="h-16 flex items-center justify-center font-bold text-xl text-gray-900 dark:text-gray-100 cursor-pointer" onClick={() => handleNavigate('/dashboard')}>
-        {collapsed ? "A" : "AuthKit"}
+        {collapsed ? "VL" : "VeriLearn"}
       </div>
 
       <Menu
